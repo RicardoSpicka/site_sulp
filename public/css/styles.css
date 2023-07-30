@@ -1,0 +1,230 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    font-family: 'Lato', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 0.9rem 0;
+}
+
+.header ul{
+    margin: 0;
+}
+
+.header ul img{
+    width: 12px;
+    height: 12px;
+    margin-right: 0.5rem;
+}
+
+.header ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 0.7rem;
+}
+
+.navBar{
+    background: linear-gradient(0deg,#03165b,#172b77);
+    color: aliceblue;
+}
+
+.navBar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    margin: 0.5rem 10rem !important;
+}
+
+.navBar ul li{
+    padding: 0 0.4rem;
+    transition: all 0.2s;
+}
+
+.navBar ul li:hover{
+    background-color: #7584c2;
+}
+
+.cards h1{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 5rem;
+}
+
+.info-left{
+    text-align: left;
+    flex-direction: column;
+}
+
+.info-left p{
+    text-align: justify;
+}
+
+.info-left img{
+    width: 40px;
+}
+
+.info-left button{
+    background: #03165b;
+    padding: 0.3rem 1rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}
+
+.info-left button:hover{
+    background: #0c1123;
+}
+
+.card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 5rem;
+    gap: 1rem;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.side-image img{
+    width: 100%;
+}
+
+.side-image:hover{
+    width: 100%;
+    transform: translate(5px, -5px);
+    transition: all 0.2s;
+}
+
+.side-image{
+    text-align: left;
+    box-shadow: 4px 4px 6px #565d78;
+    border-radius: 10px;
+}
+
+#div-set-eco{
+    width: 588px;
+    height: 330px;
+}
+
+.premios-certif{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.side-image a{
+    color: aliceblue;
+}
+
+.premios-certif-list{
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.premios-certif-list li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.premios-certif-list img{
+    width: 18px;
+    margin-right: 0.5rem;
+}
+
+footer{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    background-image: url("../image/footer-background.jpg");
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p{
+    text-align: center;
+    font-size: 0.7rem;
+    color: #9296a7;
+}
+.collumn ul{
+padding: 0;
+}
+
+.collumn ul li{
+    font-size: 0.7rem;
+    color: #9296a7;
+    cursor: pointer;
+}
+
+.collumn ul li:hover{
+    color: aliceblue;
+}
+
+.collumns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: space-around;
+    border-bottom: 1px solid aliceblue;
+    margin-bottom: 1rem;
+}
+
+.logos{
+    display: flex;
+   align-items: center;
+}
+
+#sulp-logo{
+    width: 150px;
+}
+
+#duns{
+    width: 100px;
+}
+.collumn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
