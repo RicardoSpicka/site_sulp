@@ -4,7 +4,7 @@
 
 @section('content')
 
-<section class='header'>
+<section class='header bkg-color'>
     <div>
         <img src="/image/logotipo-sulplast.png" alt="logotipo-sulplast">
     </div>
@@ -53,17 +53,19 @@
     </div>
 </slider>
 <div class="cards">
-    <card class="info">
+    <card class="info bkg-color">
         <div class="info-left">
             <h1>Sulplast</h1>
             <p>Há mais de 40 anos no mercado, a Sulplast é uma empresa especializada no desenvolvimento e fabricação de peças técnicas em termoplástico e fibra de vidro. Capaz de atender aos mais rigorosos padrões de qualidade e segurança, a Sulplast possui expertise nos processos de Vacuum Forming, Rotomoldagem, Injeção, RTM Light, RTM Skin, Hand Lay Up e Pintura Classe A.</p>
-            <div>
-                <button>Sobre a Sulplast</button>
-                <img src="./image/q1.png" alt="q1">
-                <img src="./image/selo-vda-63.png" alt="selo-vda-63">
-                <img src="./image/selo-iso9001.png" alt="selo-iso9001">
-                <img src="./image/selo-iso14001.png" alt="selo-iso14001">
-                <img src="./image/selo-iatf16949.png" alt="selo-iatf16949">
+            <div id="btn-selos">
+                <div id="selos">
+                    <img src="./image/q1.png" alt="q1">
+                    <img src="./image/selo-vda-63.png" alt="selo-vda-63">
+                    <img src="./image/selo-iso9001.png" alt="selo-iso9001">
+                    <img src="./image/selo-iso14001.png" alt="selo-iso14001">
+                    <img src="./image/selo-iatf16949.png" alt="selo-iatf16949">
+                </div>
+            <button>Sobre a Sulplast</button>
             </div>
         </div>
         <div class="info-right">
@@ -79,7 +81,7 @@
             <img src="./image/setor-automotivo-3.jpg" alt="setor-automotivo-3">
         </div>
     </card>
-    <card class="card">
+    <card class="card bkg-color">
         <div class="side-image">
             <img src="./image/setor-agricola.jpg" alt="setor-agricola">
         </div>
@@ -97,7 +99,7 @@
             <img src="./image/setor-civil.jpg" alt="setor-civil">
         </div>
     </card>
-    <card class="card">
+    <card class="card bkg-color">
         <div class="side-image">
             <img id="div-set-eco" src="./image/diversos-setores-da-economia.jpg" alt="diversos-setores-da-economia">
         </div>
@@ -111,7 +113,7 @@
             <h1>Meio ambiente</h1>
             <p>A <strong>Sulplast</strong> assume o compromisso de construir um mundo mais sustentável. Certificado pela norma <strong>ISO 14001</strong>, nosso <strong>Sistema de Gestão Ambiental</strong> é rigorosamente aplicado em todas as etapas produtivas da empresa.</p>
         </div>
-        <div class="side-image premios-certif" style="background-image: url(./image/background-split-image.jpg); height: 330px; color: aliceblue;">
+        <div class="side-image premios-certif">
             <ul class="premios-certif-list">
                 <li><img src="./image/certificate.png" alt="">Certificações</li>
                 <li><img src="./image/trofeus.png" alt="">Prêmios</li>

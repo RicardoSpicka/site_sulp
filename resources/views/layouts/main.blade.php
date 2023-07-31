@@ -27,8 +27,8 @@
         <footer>
             <div class="collumns">
                 <div class="collumn logos">
-                    <img id="sulp-logo" src="./image/logotipo-sulplast-rodape.png" alt="">
-                    <img id="duns" src="./image/duns.png" alt="">
+                    <img id="sulp-logo" src="./image/logotipo-sulplast-rodape.png" alt="logotipo-sulplast-rodape">
+                    <img id="duns" src="./image/duns.png" alt="duns">
                 </div>
                 <div class="collumn">
                     <h3>Empresa</h3>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <p>
-            2023 - <strong>Sulplast</strong>, todos os direitos reservados. As imagens apresentadas neste website são meramente ilustrativas. <br><strong>Sulplast - Fibra de vidro e termoplástico LTDA</strong>. Avenida Sulplast, 1969 - Distrito Industrial - Rio Claro/SP - Brasil. <strong><br>Crédito das imagens</strong>. Desenvolvido por <strong>Ricardo Spicka</strong>.
+            2023 - <span>Sulplast</span>, todos os direitos reservados. As imagens apresentadas neste website são meramente ilustrativas. <br><span>Sulplast - Fibra de vidro e termoplástico LTDA</span>. Avenida Sulplast, 1969 - Distrito Industrial - Rio Claro/SP - Brasil. <span><br>Crédito das imagens</span>. Desenvolvido por <span>Ricardo Spicka</span>.
             </p>
         </footer>
         <!-- Bootstrap -->

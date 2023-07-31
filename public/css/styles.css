@@ -20,8 +20,11 @@ body{
     gap: 5rem;
     justify-content: center;
     align-items: center;
-    background-color: #f3f3f3;
     padding: 0.9rem 0;
+}
+
+.bkg-color{
+    background-color: #dfdffa;
 }
 
 .header ul{
@@ -44,15 +47,18 @@ body{
 .navBar{
     background: linear-gradient(0deg,#03165b,#172b77);
     color: aliceblue;
+    padding: 0;
 }
 
 .navBar ul{
     width: 100%;
+    height: 26px;
     display: flex;
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    margin: 0.5rem 10rem !important;
+    margin: 1rem 10rem !important;
+
 }
 
 .navBar ul li{
@@ -61,13 +67,22 @@ body{
 }
 
 .navBar ul li:hover{
-    background-color: #7584c2;
+    border-bottom: 2px solid aliceblue;
 }
 
 .cards h1{
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
+}
+
+.cards p{
+    font-size: 1.2rem;
+    color: #5f657e;
+}
+
+.side-text{
+    padding: 2rem;
 }
 
 .info{
@@ -89,7 +104,18 @@ body{
 }
 
 .info-left img{
-    width: 40px;
+    width: 60px;
+}
+
+#btn-selos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#selos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .info-left button{
@@ -101,7 +127,7 @@ body{
 }
 
 .info-left button:hover{
-    background: #0c1123;
+    background: #8895c6;
 }
 
 .card{
@@ -112,6 +138,7 @@ body{
     text-align: center;
     padding: 0.5rem 5rem;
     gap: 1rem;
+    border: none;
 }
 
 .card p{
@@ -134,22 +161,21 @@ body{
     border-radius: 10px;
 }
 
-#div-set-eco{
-    width: 588px;
-    height: 330px;
-}
-
 .premios-certif{
+    height: 500px;
     display: flex;
     flex-direction: column;
+    background-image: url("../image/background-split-image.jpg");
+    background-size:cover;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
-.side-image a{
-    color: aliceblue;
+.premios-certif p{
+    padding: 2rem;
+    color: #92949a;
 }
 
 .premios-certif-list{
@@ -157,20 +183,33 @@ body{
     gap: 2rem;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .premios-certif-list li{
+    font-size: 1.5rem;
+    color: aliceblue;
     display: flex;
     align-items: center;
     list-style: none;
 }
 
+.premios-certif-list li:hover{
+    border-bottom: 2px solid aliceblue;
+}
+
+.premios-certif a{
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
 .premios-certif-list img{
-    width: 18px;
+    width: 20px;
     margin-right: 0.5rem;
 }
 
 footer{
+    margin-top: 1rem;
     padding: 1.5rem 5rem;
     display: flex;
     flex-direction: column;
@@ -187,6 +226,10 @@ p{
     text-align: center;
     font-size: 0.7rem;
     color: #9296a7;
+}
+
+span{
+    color: aliceblue;
 }
 .collumn ul{
 padding: 0;
@@ -208,6 +251,7 @@ padding: 0;
     gap: 1rem;
     justify-content: space-around;
     border-bottom: 1px solid aliceblue;
+    padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
 
